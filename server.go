@@ -23,5 +23,5 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 func main() {
 	http.HandleFunc("/time", handler)
-	http.ListenAndServe(":5000", nil)
+	http.ListenAndServe(":8795", nil)
 }
